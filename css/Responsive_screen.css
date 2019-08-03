@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* *, ::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+@media screen and (min-width: 440px){
+
+    #map-container {
+        align-content: center;
+        margin: 10px;
+        border: #000000;
+    }
+    .filter-options{
+        align-items: center;
+        width: 100%;
+    }
+
+@media screen and (min-width: 785px) {
+    #map-container {
+        align-content: center;
+        margin: 15px;
+        border: #000000;
+    }
+
+    .filter-options{
+        width: 100%;
+        align-items: center;
+     }
+
+    #restaurants-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }   
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px){
+    #map-container {
+        align-content: center;
+        margin: 15px;
+        border: #000000;
+    }
+
+    .filter-options{
+        width: 100%;
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    #restaurants-list {
+        float: left;
+        /* display: flex;
+        flex-wrap:wrap; */
+        width: 25%;
+
+    }
+}
