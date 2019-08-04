@@ -1,5 +1,4 @@
 // install Service worker
-
 let staticCacheName = 'sw-restaurant-cache';
 self.addEventListener("install", function(event){
     event.waitUntil(
@@ -8,7 +7,7 @@ self.addEventListener("install", function(event){
               './index.html',
               './restaurant.html',
               './css/styles.css',
-              './css/responsive.css',
+              './css/responsive_screen.css',
               './js/dbhelper.js',
               './js/main.js',
               './js/restaurant_info.js',
@@ -62,6 +61,6 @@ self.addEventListener('fetch', function(event) {
                     return response;
                 });
             };
-        });
+        })
     );
 });
