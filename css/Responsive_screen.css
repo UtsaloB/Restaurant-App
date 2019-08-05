@@ -13,6 +13,10 @@
     }
 
 @media screen and (min-width: 785px) {
+    #maincontnet{
+        align-content: center;
+    }
+
     #map-container {
         align-content: center;
         margin: 15px;
@@ -32,6 +36,10 @@
 }
 
 @media screen and (min-width: 801px) and (max-width: 2480px){
+    #maincontnet{
+        align-content: center;
+    }
+
     #map-container {
         align-content: center;
         margin: 15px;
@@ -52,4 +60,4 @@
         /* grid-template-columns: repeat(3, [row] 150px); */
         grid-gap: 10px;
     }
-}
+};
